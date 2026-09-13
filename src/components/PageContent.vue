@@ -268,9 +268,7 @@ const siteProjects = [
 ]
 
 const externalLinks = [
-  { name: '相册', meta: 'photo.aneko.ink', url: 'https://photo.aneko.ink' },
-  { name: '云盘', meta: 'disk.aneko.ink', url: 'https://disk.aneko.ink' },
-  { name: '博客', meta: 'blog.aneko.ink', url: 'https://blog.aneko.ink' },
+  { name: '中转', meta: 'ai.aneko.ink', url: 'https://ai.aneko.ink' },
   { name: '探针', meta: 'tz.aneko.ink', url: 'https://tz.aneko.ink' },
 ]
 </script>
