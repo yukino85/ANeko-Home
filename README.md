@@ -14,9 +14,9 @@ ANeko Home 是参考zyyo主页风格，基于 Astro、Vue 和 Cloudflare Workers
 
 ## 技术栈
 
-- [Astro](https://astro.build) 7（SSR，Cloudflare adapter）
+- [Astro](https://astro.build)
 - [Vue](https://vuejs.org)
-- [Cloudflare Workers](https://workers.cloudflare.com) 部署
+- [Cloudflare Workers](https://workers.cloudflare.com)
 
 
 ## 目录结构
