@@ -1,6 +1,6 @@
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
-const GITHUB_USERNAME = 'at-aneko'
+const GITHUB_USERNAME = 'yukino85'
 const GITHUB_API = `https://api.github.com/users/${GITHUB_USERNAME}`
 const CONTRIBUTIONS_API = `https://github-contributions-api.jogruber.de/v4/${GITHUB_USERNAME}?y=last`
 const CACHE_KEY = 'aneko-github-cache-v1'
