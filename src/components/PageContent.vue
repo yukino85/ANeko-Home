@@ -270,6 +270,7 @@ const siteProjects = [
 const externalLinks = [
   { name: '中转', meta: 'ai.aneko.ink', url: 'https://ai.aneko.ink' },
   { name: '探针', meta: 'tz.aneko.ink', url: 'https://tz.aneko.ink' },
+  { name: 'edt', meta: 'dl.aneko.ink', url: 'https://dl.aneko.ink/login' },
 ]
 </script>
 
