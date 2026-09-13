@@ -1,6 +1,6 @@
 <template>
   <footer class="pageFooter" :class="{ visible: isVisible }">
-    Copyright &copy; {{ currentYear }} aneko. All rights reserved.
+    Copyright &copy; {{ currentYear }} ANeko. All rights reserved.
   </footer>
 </template>
 

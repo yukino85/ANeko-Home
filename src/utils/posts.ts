@@ -88,7 +88,7 @@ function normalizeStoredPost(post: StoredBlogPost): BlogPost | null {
       updatedDate: updatedDate && !Number.isNaN(updatedDate.valueOf()) ? updatedDate : undefined,
       heroImage: post.heroImage,
       tags: post.tags.filter((tag): tag is string => typeof tag === 'string'),
-      author: post.author || 'Aneko',
+      author: post.author || 'ANeko',
       featured: Boolean(post.featured),
       draft: Boolean(post.draft),
     },

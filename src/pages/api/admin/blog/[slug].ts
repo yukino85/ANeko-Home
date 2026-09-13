@@ -103,7 +103,7 @@ export const PUT: APIRoute = async ({ params, request }) => {
       updatedDate: input.updatedDate ? isoDate(input.updatedDate, 'updatedDate') : undefined,
       heroImage: optionalText(input.heroImage),
       tags,
-      author: optionalText(input.author) || 'Aneko',
+      author: optionalText(input.author) || 'ANeko',
       featured: Boolean(input.featured),
       draft: Boolean(input.draft),
       readingTime: calculateReadingTime(body),

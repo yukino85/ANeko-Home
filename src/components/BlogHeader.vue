@@ -32,8 +32,8 @@
     </div>
 
     <div class="blogMasthead">
-      <p class="blogKicker">ANEKO / JOURNAL</p>
-      <h1>Aneko <span class="gradientText">Blog</span></h1>
+      <p class="blogKicker">ANeko / JOURNAL</p>
+      <h1>ANeko <span class="gradientText">Blog</span></h1>
       <p class="blogMastheadCopy">代码与日常留下的片段</p>
     </div>
   </header>

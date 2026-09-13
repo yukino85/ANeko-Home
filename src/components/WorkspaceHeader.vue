@@ -13,7 +13,7 @@
 
     <div class="blogMasthead workspaceMasthead">
       <p class="blogKicker">{{ currentProduct.kicker }}</p>
-      <h1>Aneko <span class="gradientText">{{ currentProduct.name }}</span></h1>
+      <h1>ANeko <span class="gradientText">{{ currentProduct.name }}</span></h1>
       <p class="blogMastheadCopy">{{ currentProduct.copy }}</p>
     </div>
   </header>
@@ -40,17 +40,17 @@ defineEmits(['toggle-theme'])
 const products = {
   photos: {
     name: 'Photos',
-    kicker: 'ANEKO / FRAMES',
+    kicker: 'ANeko / FRAMES',
     copy: '从相册取回光影与片刻',
   },
   drive: {
     name: 'Drive',
-    kicker: 'ANEKO / STORAGE',
+    kicker: 'ANeko / STORAGE',
     copy: '文件、目录与归档',
   },
   mail: {
     name: 'Mail',
-    kicker: 'ANEKO / INBOX',
+    kicker: 'ANeko / INBOX',
     copy: '连接已有邮箱，收取与发送邮件',
   },
 }

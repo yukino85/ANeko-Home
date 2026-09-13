@@ -12,8 +12,8 @@ interface Props {
 }
 
 const {
-  title = 'Aneko - 神奈川精神病院',
-  description = '神奈川精神病院-aneko - 包含博客、网盘、邮箱、相册等功能',
+  title = 'ANeko - 神奈川精神病院',
+  description = '神奈川精神病院-ANeko - 包含博客、网盘、邮箱、相册等功能',
   keywords = '个人主页,博客,网盘,邮箱,相册',
   loadingMode = 'always',
   breadcrumb,
@@ -26,7 +26,7 @@ const websiteSchema = Astro.url.pathname === '/'
   ? {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'Aneko',
+      name: 'ANeko',
       alternateName: '神奈川精神病院',
       url: `${SITE_ORIGIN}/`,
     }
@@ -83,7 +83,7 @@ const breadcrumbSchema = breadcrumb
     {websiteSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(websiteSchema)} />}
     {breadcrumbSchema && <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)} />}
     <meta name="keywords" content={keywords} />
-    <meta name="author" content="aneko" />
+    <meta name="author" content="ANeko" />
     <meta name="theme-color" content="#202126" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="preload" href="/static/fonts/Ubuntu-Regular.ttf" as="font" type="font/ttf" crossorigin />
